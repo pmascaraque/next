@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../components/header";
 
-function Profile() {
+function About() {
   return (
     <div>
       <Header />
-      <p>This is Profile Page</p>
+      <p>This is About Page</p>
     </div>
   );
 }
 
-export default Profile;
+export default About;
