@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 function Index() {
   return (
       <Layout>
-      <h1>Hello World</h1>
+      <h1>This is an app deployed thanks to Vercel</h1>
       </Layout>
   );
 }
