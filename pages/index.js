@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../components/header";
+import Layout from "../components/Layout";
 
-function index() {
+
+function Index() {
   return (
-    <div>
-      <Header />
+      <Layout>
       <h1>Hello World</h1>
-    </div>
+      </Layout>
   );
 }
 
-export default index;
+export default Index;

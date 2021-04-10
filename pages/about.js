@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "../components/header";
+import Layout from "../components/Layout";
 
 function About() {
   return (
-    <div>
-      <Header />
+      <Layout>
       <p>This is About Page</p>
-    </div>
+      </Layout>
   );
 }
 

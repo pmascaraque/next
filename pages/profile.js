@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "../components/header";
+import Layout from "../components/Layout";
 
 function Profile() {
   return (
-    <div>
-      <Header />
+      <Layout>
       <p>This is Profile Page</p>
-    </div>
+      </Layout>
   );
 }
 
